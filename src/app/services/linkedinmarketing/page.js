@@ -97,17 +97,18 @@ export default function Home() {
        />
       {/* <Price/> */}
       <Faq
-      q1 = "Research & Strategy"
-      a1 = "Audience Analysis: Our team conducts in-depth research on your target audience within the LinkedIn platform to guide our marketing strategies effectively."
-      q2 = "Content & Messaging"
-      a2 = "Content Creation: Our team crafts compelling ad content that speaks to professionals, driving engagement and conversions."
-      q3 = "Advertising & promotions"
-      a3 = "LinkedIn Ads: We'll create and manage LinkedIn Ads aimed at your target audience."
-      q4 = "Reports & Analytics"
-      a4 = "Reporting: Our team furnishes comprehensive analytics and reporting, furnishing you with valuable insights into campaign effectiveness and return on investment (ROI)."
-      q5 = "Access & Management"
-      a5 = "Productive Access: You'll have access to all the resources and documentation related to your LinkedIn marketing campaign."
+      q1 = "Why do I need a LinkedIn Marketing Agency?"
+      a1 = "To effectively engage and convert a multitude of professionals on LinkedIn, it's crucial to partner with a seasoned LinkedIn ads agency. Given the platform's diverse array of outreach opportunities, this collaboration is instrumental in maximizing marketing impact. Leveraging their expertise, you can tap into LinkedIn's vast potential, fostering meaningful connections and driving tangible results within the confines of a concise word limit."
 
+      q2 = "How does a LinkedIn Marketing Agency work?"
+      a2 = "Our LinkedIn advertising specialists utilize their expertise to identify and connect with professionals on the platform, defining your target audience with precision. They craft compelling advertising copy and develop campaigns designed to establish a personal connection with potential prospects, leveraging their experience to drive impactful engagement within the confines of a concise word limit."
+
+
+      q3 = "Do I need a LinekdIn Marketing strategy?"
+      a3 = "Establishing a LinkedIn ads strategy is imperative prior to launching your campaign. This ensures that your business remains focused on key metrics and goals, laying the groundwork for a successful marketing endeavor within the constraints of a succinct word limit."
+      q4 = "How do your run a LinekdIn ad?"
+      a4 = "Our team of LinkedIn advertising experts is poised to develop a customized and flexible strategy aligned with your unique business objectives. Whether your goal is lead generation, driving relevant traffic, or increasing sales, we'll tailor our approach to precisely meet your needs, ensuring optimal results within the confines of a succinct word limit."
+      
 
 
       />
