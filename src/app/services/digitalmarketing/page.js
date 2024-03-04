@@ -12,18 +12,37 @@ import Section2 from "@/components/services/sections/section2";
 import Section3 from "@/components/services/sections/section3";
 import Price from "../../../components/services/price/price";
 export default function Home() {
-  <Faq
-  q1="Digital Marketing Strategies: How do you ensure effective digital marketing campaigns?"
-  a1="Our team of experts follows best practices in digital marketing, utilizing proven strategies, data-driven decisions, and compelling content. We tailor campaigns to your target audience, ensuring maximum engagement and results."
-  q2="Audience Segmentation: How do you handle and segment target audiences?"
-  a2="We employ advanced audience segmentation techniques, considering factors such as user behavior, demographics, and engagement levels. This ensures personalized and targeted communication, leading to higher engagement and conversion rates."
-  q3="Online Presence: How do you ensure a strong online presence for brands?"
-  a3="We prioritize brand visibility and engagement through strategic online presence management. This includes leveraging various digital channels, optimizing content, and adhering to industry standards to enhance brand reputation."
-  q4="Analytics and Reporting: What insights do you provide for campaign performance?"
-  a4="Our analytics cover a range of metrics, including engagement rates, conversion rates, website traffic, and more. We present comprehensive reports with actionable insights, allowing you to refine and improve your future digital marketing strategies."
-  q5="Automation: How can automation benefit my digital marketing efforts?"
-  a5="Automation streamlines your digital marketing efforts by automating repetitive tasks, segmenting audiences, and delivering personalized content. It enhances efficiency, increases relevance, and improves overall campaign performance."
-/>
+  const faqData = [
+    {
+      question:
+        "eDigital Marketing Strategy: How do you ensure effective eDigital marketing campaigns?",
+      answer:
+        "Our eDigital marketing experts craft strategies that align with your business goals, leveraging the latest trends and technologies. We focus on creating engaging content and optimizing campaigns to maximize audience reach and conversions.",
+    },
+    {
+      question: "Audience Segmentation: How do you target specific audiences in eDigital marketing?",
+      answer:
+        "In eDigital marketing, we implement advanced audience segmentation strategies, considering factors such as demographics, behavior, and online preferences. This precision ensures that your ads are delivered to the most relevant audience, enhancing the effectiveness of your campaigns.",
+    },
+    {
+      question:
+        "Ad Visibility in eDigital Marketing: How do you ensure that eDigital ads gain visibility and engagement?",
+      answer:
+        "We prioritize eDigital ad visibility through strategic placements, eye-catching visuals, and adherence to platform guidelines. Our dedicated team monitors performance metrics to optimize ad delivery, ensuring your ads achieve maximum visibility and engagement.",
+    },
+    {
+      question:
+        "Analytics and Reporting for eDigital Marketing: What insights do you provide for eDigital ad performance?",
+      answer:
+        "Our eDigital marketing analytics cover a spectrum of metrics, including click-through rates, conversion rates, and customer journey analysis. We provide comprehensive reports with actionable insights, empowering you to refine and elevate your future eDigital advertising strategies.",
+    },
+    {
+      question: "Automation in eDigital Marketing: How can automation enhance my eDigital marketing campaigns?",
+      answer:
+        "Automation is integral to our eDigital marketing approach, streamlining campaigns based on user behavior, preferences, and real-time data. This not only saves time but also increases relevance and efficiency, resulting in superior performance across the eDigital landscape.",
+    },
+  ];
+  
 
   return (
     <div ClassName="flex flex-col ">
