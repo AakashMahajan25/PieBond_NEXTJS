@@ -60,21 +60,21 @@ export default function Home() {
 <ServiceCard
   title="Professional Conversion Rate Optimization Agency"
   desc="In the ever-evolving digital landscape, optimizing your website's conversion rate is paramount for business growth. At [Your Agency Name], we specialize in Conversion Rate Optimization (CRO), offering tailored services meticulously crafted for your brand's unprecedented success. Experience a strategic methodology in CRO that guarantees your business seizes the boundless opportunities online, resulting in substantial outcomes."
-  cardTitle1="Comprehensive Website Analysis"
-  desc1="Elevate your online presence with in-depth website analysis, identifying optimization opportunities, and enhancing key elements to maximize conversion performance."
-  cardTitle2="Strategic User Experience Design"
-  desc2="Harness the potential of strategic user experience design to create a seamless journey for your website visitors, driving engagement and increasing conversion rates."
-  cardTitle3="A/B Testing and Data Analytics"
-  desc3="Dive into data-centric decision-making with A/B testing and robust analytics. Gain insights into user behavior, test different variations, and make data-backed decisions for continuous improvement."
-  cardTitle4="Targeted Audience Segmentation"
-  desc4="Optimize your target audience engagement with advanced segmentation techniques. Deliver personalized messages that resonate with specific audience segments, ensuring higher conversion rates."
-  cardTitle5="Responsive Design and Testing"
-  desc5="Ensure your website looks stunning across devices. Our team prioritizes responsive design and testing methodologies to maximize the impact of your website on different platforms."
-  cardTitle6="Compelling Content Optimization"
-  desc6="Optimize your website's content for maximum impact. Our creative team blends persuasive copywriting with visually appealing designs to drive meaningful interactions and strengthen your brand presence."
+  cardTitle1 = "Conversion Funnel Analysis"
+  desc1 = "Unlock the potential of your conversion funnel with comprehensive analysis. Identify bottlenecks and opportunities for optimization to streamline the path to conversion."
+  cardTitle2 = "User Behavior Insights"
+  desc2 = "Gain valuable insights into user behavior to enhance conversion rates. Understand how visitors interact with your website and leverage this knowledge to optimize user experience."
+  cardTitle3 = "Multivariate Testing"
+  desc3 = "Maximize conversion rates with multivariate testing. Test different combinations of elements on your website to determine the most effective strategies for driving conversions."
+  cardTitle4 = "Personalization Strategies"
+  desc4 = "Tailor user experiences with personalized content and offers. Implement dynamic content and targeted messaging to resonate with individual visitors and boost conversion rates."
+  cardTitle5 = "Performance Monitoring"
+  desc5 = "Stay ahead of the curve with real-time performance monitoring. Track key metrics, identify trends, and promptly address any issues to ensure optimal conversion rates."
+  cardTitle6 = "Conversion-focused Design Optimization"
+  desc6 = "Optimize your website's design for conversion success. From compelling call-to-actions to intuitive navigation, we enhance every aspect of your site to drive more conversions."
 />
 
-      <Faq1 faqData={faqData} />
+      <Faq1 faqData={faqData} mainhead="Why Professional Conversion Rate Optimisation Services?" />
       <Drawer
   title="Understanding Conversion Rate Optimization"
   button="Explore Our CRO Services"

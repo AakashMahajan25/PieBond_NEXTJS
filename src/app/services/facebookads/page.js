@@ -45,9 +45,12 @@ export default function Home() {
       <Navbar />
       <Banner />
       <Proven
-        desc1="Discover our curated selection of data-backed digital marketing strategies, meticulously crafted to propel your business to online success."
-        desc2="Embark on a transformative journey with our commitment to delivering remarkable results, merging expertise, innovation, and customized digital marketing strategies."
-        desc3="Embark on a transformative journey with our commitment to delivering impressive results, blending expertise, innovation, and bespoke digital marketing strategies."
+        title1="Effective Facebook Ad Strategies"
+        desc1="Unlock the power of effective Facebook advertising strategies tailored to your business goals. Our data-driven approach ensures your ads reach the right audience, driving engagement and conversions."
+        title2="Expert Facebook Ad Management"
+        desc2="Benefit from the expertise of our certified Facebook ad specialists dedicated to optimizing your campaigns. Stay ahead of Facebook advertising trends with a team committed to delivering exceptional results."
+        title3="Guaranteed Facebook Ad Performance"
+        desc3="Experience the results-driven approach of our Facebook advertising services. We combine innovative techniques and personalized strategies to guarantee success in the competitive landscape of Facebook advertising."
       />
       <ServiceCard
         title="Professional Facebook Ads Agency"
@@ -63,33 +66,64 @@ export default function Home() {
         cardTitle5="Retargeting Campaigns"
         desc5="For re-engaging users who have previously interacted with your brand, we devise retargeting campaigns. These initiatives serve as gentle reminders and encouragements for users to finalize their purchase or engagement with your brand."
       />
-      <Faq1 faqData={faqData} />
+      <Faq1 faqData={faqData} mainhead="Why Professional Facebook Advertising Services?" />
       <Drawer
-        title="Understanding Facebook Ads"
-        button="Understand Our Seo Service"
-        desc1="Visualize a Facebook Ads campaign that consistently transforms social media users into bona fide customers for your business every month, all while adhering to your current marketing budget. Are you weary of allocating your Facebook Ads budget to ineffectual marketing agencies and campaigns? It’s time to implement our proven, revenue-focused strategies. Our Facebook Ads methodologies have empowered businesses across various industries to outperform their competitors and command authority on Facebook, resulting in a continuous influx of leads into their pipeline."
-        Img1={seoimg}
-        title2="Our 5-stage process for effective SEO services:"
-        submenu1="1. Research & Plan"
-        subdesc1="Just as you would study the guest list and topics before a networking event, we start by understanding your business landscape and competitors. Knowing who and what you're up against enables us to position you strategically, so you're not just a face in the crowd but a key player in your field."
-        submenu2="2. Track & Measure"
-        subdesc2="At a networking event, you'd take note of who you spoke with, who showed interest and who you connected with. Our SEO analytics are the digital equivalent, providing real-time data on who's visiting your site, what they're interested in, and how they found you in the first place. To pair with these analytic tools we also set certain goals that we can measure the success of our SEO efforts against so that we know that we are on the right path"
-        submenu3="3. Execute"
-        subdesc3="Now, it's time to enter the room, or in your case, to make your presence felt on search engines. Our team takes care of everything from keyword optimisation to high-quality content creation, just like you'd prepare your elevator pitch and choose your conversations carefully at a networking event."
-        submenu4="4. Optimise"
-        subdesc4="After the initial interactions, you'd think about what went well and where you could improve. We do the same with your SEO, continuously fine-tuning based on performance data to make sure you're not just in the room but drawing a crowd."
-        submenu5="5. Scale"
-        subdesc5="Once you've made a name for yourself at one event, you'd look to attend others and expand your network. Similarly, once your SEO starts yielding results, we explore opportunities to target new keywords, and audiences and even break into different markets"
-        lastdesc="    Much like how you become a well-known figure in a networking room by being at the right place, saying the right things and connecting with the right people, our Infinity-5 Framework ensures your website gains the reputation and visibility it deserves in the digital world."
-      />
+       title = "Unlock the Power of Facebook Ads"
+       button = "Explore Our Facebook Advertising Solutions"
+       desc1 = "Discover Pie-Bond's Facebook Advertising, your strategic channel for dynamic brand visibility and engagement. Unlike traditional ads, we convert viewers into engaged customers. If we don't enhance your brand's presence, our service is free."
+       Img1 = {seoimg} 
+       title2 = "Our 5-stage process for effective Facebook Advertising services:"
+       submenu1 = "1. Research & Plan"
+       subdesc1 = "Identify optimal target audiences by analyzing competitors and crafting compelling ad content for your Facebook presence."
+       submenu2 = "2. Track & Measure"
+       subdesc2 = "Utilize tracking tools to assess impressions, click-through rates, and gather valuable data for informed decision-making."
+       submenu3 = "3. Execute"
+       subdesc3 = "Create and launch attention-grabbing Facebook ads, incorporating visually appealing elements for maximum engagement."
+       submenu4 = "4. Optimize"
+       subdesc4 = "Experiment with different ad elements, messaging approaches, and CTAs to refine and enhance audience interaction."
+       submenu5 = "5. Scale"
+       subdesc5 = "Expand your reach by amplifying successful strategies, such as targeting different audience segments and running ads across multiple placements."
+       lastdesc = "Achieve the recognition and visibility your brand deserves in the digital world."
+         />
       <Section2
-        title="Generate Better Roi with Proven Marketing Strategies"
-        desc1="Learn The Proven Strategies Your Competitors Are Using To Dominate The Market."
-        desc2="Are you tired of spending money on marketing strategies or digital channels that you're unsure will be effective and provide a return on investment? Have you invested in marketing campaigns and hoped for positive results, but have been disappointed? We have the solutions for all of your concerns. Our strategies have generated over 2,480 page 1 Google rankings, grown organic traffic by more than 140% and delivered more than 8,000+ high-quality leads, helping businesses like yours to steal market share from their competitors and dominate the online space in just a matter of months!"
+       title = "Boost Your ROI with Proven Facebook Advertising Strategies"
+       desc1 = "Unlock the proven strategies your competitors use to dominate the digital landscape and achieve exceptional ROI. Tired of uncertain marketing channels? Our solutions have propelled brands with over 2,480 successful Facebook ad campaigns, a 140% surge in ad engagement, and the delivery of 8,000+ high-quality leads. Seize market share and establish online dominance in just months!"
+       desc2 = "Key Highlights:- Proven strategies for guaranteed Facebook ad results- Over 2,480 successful Facebook ad campaigns- 140% growth in ad engagement        - 8,000+ high-quality leads delivered- Ready to elevate your Facebook advertising game? Explore more about our proven strategies now!"
+       
       />
-      <Section3 />
+      <Section3
+      maintitle = "With our tried-and-tested framework, we confidently assure success in Facebook advertising"
+      title = "Research & Plan"
+      desc = "Uncover proven engagement tactics from successful Facebook ad campaigns. Analyze your business, set targets, and craft a tailored Facebook advertising strategy with at least five compelling ad themes."
+      title2 = "Track & Measure"
+      desc2 = "Utilize advanced tracking tools to measure impressions, click-through rates, and other key metrics. Analyze your Facebook advertising performance, set targets, and refine your strategy based on valuable data."
+      title3 = "Execute"
+      desc3 = "Leverage our team of Facebook advertising experts to develop captivating ad creatives needed to execute your strategy and expand your audience on the platform."
+      title4 = "Optimize"
+      desc4 = "Conduct extensive A/B testing to determine the most effective ad elements, gaining invaluable insights into what drives success for your brand on Facebook."
+      title5 = "Scale"
+      desc5 = "Enhance your Facebook presence by scaling up successful strategies once desired results are achieved. Expand your reach and achieve sustainable growth on the Facebook platform."
+      
+      
+      />
       {/* <Price/> */}
-      <Faq />
+      <Faq
+      q1 = "Which platforms offer effective advertising opportunities?"
+      a1 = "The effectiveness depends on your business, sector, and audience. We adeptly identify platforms where your target demographic actively engages, ensuring optimal results for your Facebook advertising campaigns."
+      
+      q2 = "Which channels do you work with?"
+      a2 = "Our team excels in Facebook advertising, with expertise in crafting compelling ad content for optimal engagement. We stay adaptable to evolving platforms, ensuring exceptional outcomes in the dynamic landscape of video advertising."
+      
+      q3 = "How do your Facebook advertising services work?"
+      a3 = "From strategic planning to comprehensive ad campaign management, we specialize in crafting Facebook advertising strategies, ad content creation, audience targeting, and insightful reporting, adapting to diverse requirements to maximize the impact of your campaigns."
+      
+      q4 = "Which industries have you worked with in Facebook advertising?"
+      a4 = "We collaborate across diverse sectors, from global brands to local businesses, delivering successful Facebook advertising campaigns. Explore our case studies for insights into our expertise in driving results for various industries."
+      
+      q5 = "When should I use Facebook advertising?"
+      a5 = "In the realm of Facebook advertising, transparency regarding achievable outcomes is paramount. Typically, the primary objective revolves around enhancing brand visibility and cultivating credibility. Without leveraging Facebook advertising or building a substantial audience, generating leads or conversions may pose challenges. However, we can assist you in cultivating a dedicated following and transforming it into a lucrative channel once you've established a loyal fan base, mirroring our success with other clients."
+      
+      />
       <Footer />
     </div>
   );

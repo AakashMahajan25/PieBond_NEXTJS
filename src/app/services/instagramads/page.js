@@ -25,10 +25,14 @@ export default function Home() {
       <Navbar />
       <Banner />
       <Proven
-      desc1 = "Discover our array of proven digital marketing tactics, supported by data-driven insights, designed to propel your business to success in the online realm."
-      desc2 = "Leverage the expertise of our certified professionals, who possess the knowledge and skills required to optimize your digital marketing endeavors effectively."
-
-      desc3 = "Witness the distinction with our commitment to delivering remarkable outcomes, merging proficiency, innovation, and customized digital marketing approaches."
+     title1 = "Proven Instagram Ad Tactics"
+     desc1 = "Discover a collection of proven Instagram advertising tactics, meticulously designed and backed by data. These strategies are tailored to enhance your brand visibility on Instagram and drive tangible results for your business."
+     
+     title2 = "Certified Instagram Ad Experts"
+     desc2 = "Harness the knowledge and skills of our certified professionals dedicated to optimizing your Instagram advertising campaigns. Stay ahead of Instagram advertising trends with a team committed to delivering top-notch solutions for your business."
+     
+     title3 = "Guaranteed Instagram Ad Results"
+     desc3 = "Witness the impact of our unwavering commitment to Instagram advertising results. We blend expertise, innovation, and personalized strategies to ensure your success in the dynamic Instagram advertising landscape."
       />
       <ServiceCard
       title = "Professional Instagram Ad Agency"
@@ -37,19 +41,23 @@ export default function Home() {
       cardTitle1 = "Brand Awareness Campaigns"
       desc1 = "We provide a wide range of Instagram Ads that are not only visually captivating but also strategically targeted. Our methodology blends artistic creativity with data-driven insights, guaranteeing that your brand captivates attention and fosters engagement on one of the globe&apos;s most renowned social platforms."
 
-      cardTilte2 = "Engagement Campaigns"
+      cardTitle2 = "Engagement Campaigns"
       desc2 = "Centered on eliciting likes, comments, and shares, our engagement campaigns cultivate a robust bond between your brand and your Instagram community."
 
       cardTitle3 = "Traffic and Conversion Campaigns"
       desc3 = "Our ad designs are crafted not only to captivate viewers but also to prompt clicks, guiding traffic to your website or online store to enhance conversions and sales."
 
-      cardTilte4 = "Story Ads"
+      cardTitle4 = "Story Ads"
       desc4 = "Harnessing Instagram's Stories feature, we produce immersive, full-screen ads designed to seize attention in a dynamic and engaging format."
 
-      cardTilte5 = "Influencer Collaborations"
+      cardTitle5 = "Influencer Collaborations"
       desc5 = "Through strategic partnerships with pertinent Instagram influencers, we amplify your brand's reach, tapping into established audiences to bolster credibility and maximize impact."
+
+      cardTitle6 = "Carousel Ads"
+desc6 = "Utilize the power of Carousel Ads to showcase multiple products or features in a single ad unit. Engage your audience with interactive, scrollable content, driving higher levels of engagement and conversion."
+
       />
-      <Faq1 faqData={faqData}/>
+      <Faq1 faqData={faqData} mainhead="Why Professional Instagrsm Advertising Services?"/>
       <Drawer title="Why You Need an Instagram Ads Agency"
         button="Understand the full potential of professional Instagram Ad services"
         desc1="Envision an Instagram Ads campaign that consistently transforms social media users into tangible sales for your business each month, all while staying within your established marketing budget. Are you weary of squandering your Instagram Ads budget on unproductive ad agencies and campaigns? It's time to implement our tried-and-tested, revenue-centric Instagram Ads strategies."
@@ -67,10 +75,10 @@ export default function Home() {
         subdesc5="Just as a successful billboard campaign might prompt consideration of additional locations or larger displays, when your Instagram Ads yield promising results, we explore opportunities to expand your reach. By tapping into new audiences, we aim to bolster your sales and revenue, further amplifying your success."
         lastdesc="   Through the implementation of our Infinity-5 Framework for Instagram Ads, your digital 'billboard' will not only seize attention but also prompt action, transitioning casual viewers into devoted customers."
       />
-      <Section2 title="Generate Better Roi with Proven Marketing Strategies"
-        desc1="Learn The Proven Strategies Your Competitors Are Using To Dominate The Market."
-        desc2="Are you tired of spending money on marketing strategies or digital channels that you&apos;re unsure will be effective and provide a return on investment? Have you invested in marketing campaigns and hoped for positive results, but have been disappointed? We have the solutions for all of your concerns. Our strategies have generated over 2,480 page 1 Google rankings, grown organic traffic by more than 140% and delivered more than 8,000+ high-quality leads, helping businesses like yours to steal market share from their competitors and dominate the online space in just a matter of months!"
-      />
+      <Section2 title = "Maximize Your ROI with Proven Instagram Advertising Strategies"
+desc1 = "Unlock the proven strategies your competitors use to dominate the digital landscape and achieve exceptional ROI. Tired of uncertain marketing channels? Our solutions have propelled brands with over 2,480 successful Instagram ad campaigns, a 140% surge in ad engagement, and the delivery of 8,000+ high-quality leads. Seize market share and establish online dominance in just months!"
+desc2 = "Key Highlights:- Proven strategies for guaranteed Instagram ad results- Over 2,480 successful Instagram ad campaigns- 140% growth in ad engagement- 8,000+ high-quality leads delivered- Ready to elevate your Instagram advertising game? Explore more about our proven strategies now!"
+  />
       <Section3 
       maintitle = "Our proven framework enables us to guarantee success with Instagram Ads."
       title = "Research and Plan"

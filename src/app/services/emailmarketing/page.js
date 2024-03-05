@@ -79,7 +79,7 @@ export default function Home() {
   title="Unlock the Power of YouTube Ads"
   button="Explore Our YouTube Advertising Solutions"
   desc1="Discover Pie-Bond's YouTube Advertising, your strategic channel for dynamic brand visibility and engagement. Unlike traditional ads, we convert viewers into engaged customers. If we don't enhance your brand's presence, our service is free."
-  Img1={youtubeAdsImg} // Replace with your YouTube Ads image
+  Img1={seoimg} // Replace with your YouTube Ads image
   title2="Our 5-stage process for effective YouTube Advertising services:"
   submenu1="1. Research & Plan"
   subdesc1="Identify optimal target audiences by analyzing competitors and crafting compelling video content for your YouTube presence."

@@ -78,7 +78,7 @@ export default function Home() {
         desc6="Dominate relevant search queries with strategic keyword selection. Our team conducts thorough keyword research to ensure your Bing Ads appear in front of the right audience at the right time.
      "
       />
-      <Faq1 faqData={faqData} />
+      <Faq1 faqData={faqData} mainhead="Why Professional Bing Advertising Services?" />
       <Drawer
      title="Unlocking Bing Ads Potential"
      button="Explore Bing Ads Mastery"

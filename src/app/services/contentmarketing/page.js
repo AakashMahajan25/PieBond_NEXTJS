@@ -74,7 +74,7 @@ export default function Home() {
   desc6="Engage your audience with captivating content. Our creative team blends persuasive copywriting with visually appealing designs to drive meaningful interactions and strengthen your brand presence."
 />
 
-      <Faq1 faqData={faqData} />
+      <Faq1 faqData={faqData} mainhead="Why Professional Content Marketing Services?" />
       <Drawer
   title="Understanding Content Marketing"
   button="Explore Our Content Marketing"

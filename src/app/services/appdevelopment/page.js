@@ -74,7 +74,7 @@ export default function Home() {
   desc6="Embrace continuous innovation with our commitment to custom solutions. We ensure your app evolves with changing demands, keeping it relevant and competitive in the ever-evolving digital landscape."
 />
 
-      <Faq1 faqData={faqData} />
+      <Faq1 faqData={faqData} mainhead="Why youneed Professional App Development Services?" />
       <Drawer
   title="Exploring App Development"
   button="Explore Our App Development Solutions"
